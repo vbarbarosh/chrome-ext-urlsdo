@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "urlsdo",
+    "version": "1.0",
+    "description": "Find urls on a page by using CSS selector, then (1) open them all in new tabs, (2) click by them, (3) or copy them into clipboard.",
+    "sandbox": {
+        "pages": ["src/popup-sandboxed.html"]
+    },
+    "action": {
+        "default_icon": "google-chrome-icon.png",
+        "default_title": "urls → do",
+        "default_popup": "src/popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting",
+        "storage",
+        "downloads"
+    ],
+    "host_permissions": [
+        "http://*/",
+        "https://*/"
+    ]
+}
