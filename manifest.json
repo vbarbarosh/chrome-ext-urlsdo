@@ -7,7 +7,7 @@
         "pages": ["src/popup-sandboxed.html"]
     },
     "action": {
-        "default_icon": "google-chrome-icon.png",
+        "default_icon": "images/logo-128x128.png",
         "default_title": "urls → do",
         "default_popup": "src/popup.html"
     },
